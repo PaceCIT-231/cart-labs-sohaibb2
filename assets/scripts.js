@@ -16,6 +16,11 @@ function addToCart(cookie) {
 
 }
 
+function addPriceToProduct (product, price) {
+    product.price = price
+    return product.price
+    }
+
 function checkout() {
     console.log('User is checking out.')
     //Let your customer know how many items they are purchasing and the price
