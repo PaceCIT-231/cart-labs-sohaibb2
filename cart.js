@@ -6,6 +6,11 @@ const cart = {
 
         //add the price (number) to the currentPrice properties
 
+        function addPriceToProduct (product, price) {
+            product.price = price;
+            return product;
+        }
+
     },
     clear: function() {
         //reset the currentPrice and items properties
