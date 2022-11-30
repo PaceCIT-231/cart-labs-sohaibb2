@@ -7,7 +7,7 @@ function addToCart(cookie) {
         sandies: 30
         party press: 35
         chocolate chip: 25
-    */
+    */.
    
    console.log('The user is adding this type of cookie to their cart: ' , cookie) 
 
