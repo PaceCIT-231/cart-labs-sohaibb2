@@ -10,7 +10,8 @@ const cart = {
             product.price = price;
             return product;
         }
-
+        cart.addItem(cookie, 20)
+        
     },
     clear: function() {
         //reset the currentPrice and items properties
